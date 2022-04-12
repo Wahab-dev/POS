@@ -1,0 +1,11 @@
+<div class="dialog_box_design custom_input_design" style="text-align: center;width:700px!important;margin: 0!important;" flex="100">
+    <h1 style="color: darkgreen">Add Product</h1>
+    <ul class="change_password">
+        <md-input-container ng-repeat="product_entry_data in product_entry_datas">
+            <label>{{product_entry_data.label}}</label>
+            <input ng-model="name" required/>
+        </md-input-container>
+        <md-button type="submit" class="md-primary md-raised">Submit</md-button>
+    </ul>
+</div>
+

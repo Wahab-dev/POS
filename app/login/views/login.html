@@ -1,0 +1,37 @@
+<!-- header content goes here -->
+<!-- <div layout="column" style="">
+    <md-toolbar class="md-hue-2">
+        <div class="md-toolbar-tools">
+            <md-button class="md-icon-button" aria-label="Settings" ng-disabled="true">
+                <ng-md-icon icon="send" style="fill:red" size="28"></ng-md-icon>
+            </md-button>
+            <h2>
+                <span>Pos display </span>
+            </h2>
+            <span flex></span>
+            <p>{{login_details.first_name}}</p>
+            <md-button class="md-icon-button" aria-label="Favorite">
+                <ng-md-icon icon="send" style="fill:red" size="28"></ng-md-icon>
+            </md-button>
+            <md-button class="md-icon-button" aria-label="More">
+                <ng-md-icon icon="send" style="fill:red" size="28"></ng-md-icon>
+            </md-button>
+        </div>
+    </md-toolbar>
+</div>
+ -->
+<!------------------------------------------ login form details goes here------------------------------------------------->
+
+
+<div>
+	<label>username</label>
+	<input type="text" data-ng-model="credentials.user_name">
+</div>
+<div>
+	<label>password</label>
+	<input type="password" data-ng-model="credentials.password">
+</div>
+{{credentials}}
+<div>
+	<button value="login" data-ng-click="authenticate(credentials)">Login</button>
+</div>
