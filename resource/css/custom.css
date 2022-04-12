@@ -1,0 +1,302 @@
+input, textarea, select {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14pt!important;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: #888;
+    margin-bottom: 7px;
+}
+form input[type="text"],.custom_input_design input[type="text"],
+form input[type="email"],.custom_input_design input[type="email"],
+form input[type="password"],.custom_input_design input[type="password"],
+form input[type="date"],.custom_input_design input[type="date"],
+form input[type="submit"],.custom_input_design input[type="submit"],
+form select,.custom_input_design select,
+form textarea,.custom_input_design textarea {
+    background: #fff!important;
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 0.35em;
+    box-shadow: inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.05);
+    border: solid 1.5px #3985B1!important;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -ms-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+}
+
+form input[type="text"]:focus,.custom_input_design input[type="text"]:focus,
+form input[type="email"]:focus,.custom_input_design input[type="email"]:focus,
+form input[type="password"]:focus,.custom_input_design input[type="password"]:focus,
+form select:focus,.custom_input_design select:focus,
+form textarea:focus,.custom_input_design textarea:focus{
+    box-shadow: 0 0 2px 1px #8ebebc;
+    background: #fff;
+}
+
+form input[type="text"],.custom_input_design input[type="text"],
+form input[type="email"],.custom_input_design input[type="email"],
+form input[type="password"],.custom_input_design input[type="password"],
+form select {
+    line-height: 1.25em;
+}
+
+.form-style-first-page,.form-style-9{
+    background: #FAFAFA;
+    padding: 20px 60px 20px 60px;
+    margin: 50px auto;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+    /*border: 6px solid #305A72;*/
+    border: 6px solid grey;
+}
+.form-style-first-page{max-width: 400px;}
+.form-style-9,.dialog_box_design{
+    max-width: 600px;
+}
+.form-style-9 ul,.form-style-first-page ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+.form-style-9 ul li,.form-style-first-page ul li{
+    display: block;
+    margin-bottom: 10px;
+    min-height: 25px;
+}
+.form-style-9 ul li  .field-style, .form-style-first-page ul li  .field-style{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 6px;
+    outline: none;
+    border: 1px solid #B0CFE0;
+    -webkit-transition: all 0.80s ease-in-out;
+    -moz-transition: all 0.80s ease-in-out;
+    -ms-transition: all 0.80s ease-in-out;
+    -o-transition: all 0.80s ease-in-out;
+
+}.form-style-9 ul li  .field-style:focus, .form-style-first-page ul li  .field-style:focus{
+     box-shadow: 0 0 5px #B0CFE0;
+     border:1px solid #B0CFE0;
+ }
+.form-style-9 ul li .field-split,.form-style-first-page ul li .field-split{
+    width: 49%;
+}
+.form-style-9 ul li .field-full,.form-style-first-page ul li .field-full{
+    width: 100%;
+}
+.form-style-9 ul li input.align-left,.form-style-first-page ul li input.align-left{
+    float:left;
+}
+.form-style-9 ul li input.align-right,.form-style-first-page ul li input.align-right{
+    float:right;
+}
+.form-style-9 ul li textarea,.form-style-first-page ul li textarea{
+    width: 100%;
+    height: 40px;
+}
+.form-style-first-page ul li input[type="submit"]{
+    width: 100%;
+    height: 40px;
+}
+.form-style-9 ul li input[type="button"],
+.form-style-9 ul li input[type="submit"],.form-style-first-page ul li input[type="button"],.form-style-first-page ul li input[type="submit"]
+{
+    -moz-box-shadow: inset 0px 1px 0px 0px #3985B1;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #3985B1;
+    box-shadow: inset 0px 1px 0px 0px #3985B1;
+    background-color: #3985B1!important;
+    border: 1px solid darkcyan;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    padding: 8px 18px;
+    text-decoration: none;
+    font: 12px Arial, Helvetica, sans-serif;
+}
+.form-style-9 ul li input[type="button"]:hover,
+.form-style-9 ul li input[type="submit"]:hover,
+.form-style-first-page ul li input[type="button"]:hover,
+.form-style-first-page ul li input[type="submit"]:hover{
+    background: linear-gradient(to bottom, #2D77A2 5%, #337DA8 100%);
+    background-color: #28739E;
+}
+/*****************************************  Header design****************************************************/
+.nav_bar_main{
+    background-color: #f4f4f4!important;
+    color: #283593!important;font-weight: 700;
+    border-bottom: 2px solid #283593 ;
+}
+/****************************************** Dash board display************************************************/
+.side_slider{
+    width: 275px;
+    height: 670px;
+    margin-left: 0px;
+    margin-top: -64px;
+    background-color: #FAFAFA;
+    position: fixed;
+}
+.side_slider ul{
+    margin-left: -50px;
+    list-style-type: none;
+    margin-top: 200px;
+    text-align: center;
+}
+.side_slider ul>li{
+    height: 40px;
+    padding-top: 10px;
+    border-bottom: solid 1px lightgray;
+}
+.side_slider ul>li>a{
+    color: #414141;
+}
+
+/******************************************** dialog box****************************************/
+.dialog_box_design{
+    background: #FAFAFA;
+    padding: 20px 60px 20px 60px;
+    margin: 50px auto;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+    border-radius: 0px;
+    border: 6px solid green;
+}
+/********************************************* dashboard design **********************************/
+.dashboard_view{
+    height:600px;
+    background-color: white;
+}
+.graph_display,.details,.sales_details,.product_details{
+    height:400px;
+}
+.graph_display{
+    background-color: #FAFAFA;
+}
+.details{
+    background-color: #FAFAFA;
+    margin-left: 20px;
+    border: 0px solid lightgray;
+    border-radius: 8px;
+}
+.product_details{
+    background-color: white;
+}
+.sales_details{
+    background-color: lightblue;
+}
+.product_table_view{
+    margin-top: 0px;
+}
+.product_table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.product_table td,.product_table th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.product_table tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.dashboard_details{
+    padding: 70px 70px 0px 70px;
+}
+.dashboard_details .graph_display md-tabs md-tabs-canvas{
+    background-color: white;
+}
+.tab_graph{
+    background-color: #FAFAFA!important;
+    /*background-image: linear-gradient(#f7f7f7,#ededed);*/
+    height: 400px;
+    border: 0px solid lightgray;
+    border-radius: 8px;
+}
+.tab_align{
+    text-align: center;padding-top: 100px;
+}
+
+
+
+/**************************************** for stock store billing***********************************/
+.align_pos,.align_pos1{
+    margin-left: 275px;
+}
+.align_pos{
+    background-color: lightblue;
+}
+.align_pos1{
+    background-color: white;
+}
+
+.stock_toolbar{
+    background-color: #f1f1f1!important;
+    color: #0f0f0f!important;
+}
+.stock_input{
+    width: 130px;
+    height: 40px;
+    margin-right: 20px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 10px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+.stock_input:focus{
+    width: 400px;
+}
+.stock_button{
+    margin-top: 4px;
+    background-color: #4CAF50;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.bill_align{
+    height:570px;background-color: #e1e1e1;
+    margin-top: 10px;
+}
+.bill_align h1{
+    margin-top: -0px;color: white;
+    background-color: #283593;
+    padding: 8px 0 8px 0;
+    margin-bottom: 10px;
+}
+.int_bill_page{
+    background-color: #fafafa;height: 87%;
+    margin: auto;border-radius: 10px;
+}
+.bill_input input{
+    margin:5px 0 5px 10px;
+    border:1px solid #283593;
+    border-radius: 5px;
+}
+.bill_table table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+.bill_table td, .bill_table th {
+    text-align: left;
+    padding: 8px;
+}
+.bill_bottom_detail{
+    margin-top: -70px!important;background-color: #fafafa;
+    height: 70px;bottom: 0;margin: auto;
+}
